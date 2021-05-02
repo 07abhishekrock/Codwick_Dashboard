@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="stylesheets/main.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/41567e3c64.js" crossorigin="anonymous"></script>
+    <title>CodeWick Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      <span class="hand"></span>
+      <span class="hand"></span>
+    </nav>
+
+    <div class="main-content-wrapper">
+      <div class="sidebar">
+        <div class="profile-wrapper">
+          <div class="profile-img"></div>
+          <span class="profile-name">Nuri Singh</span>
+          <div class="profile-buttons">
+            <button><i class="far fa-plus-square"></i>Post</button>
+            <button><i class="far fa-paper-plane"></i>Message</button>
+          </div>
+        </div>
+
+        <ul class="profile-links">
+          <li><i class="local-icon home"></i>Home</li>
+          <li><i class="local-icon posts"></i>My Posts</li>
+        </ul>
+
+        <div class="profile-actions-wrapper">
+          <h3>Creator Dash Board</h3>
+          <ul class="profile-actions">
+            <li><i class="local-icon dashboard"></i>Dash Board</li>
+            <li><i class="local-icon support"></i>Support</li>
+            <li><i class="local-icon members"></i>Members</li>
+            <li><i class="local-icon extras"></i>Extras</li>
+            <li><i class="local-icon settings"></i>Settings</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-bar-wrapper">
+        <div class="overview-box">
+          <div class="overview-heading">
+            <h2>Overview</h2>
+            <button>View All Stats</button>
+          </div>
+          <div class="overview-stats">
+            <div class="stat-wrapper">
+              <div class="stat">
+                <span><i class="local-icon followers"></i>Followers</span>
+                <span class="value">0</span>
+              </div>
+            </div>
+            <div class="stat-wrapper">
+              <div class="stat">
+                <span><i class="local-icon support"></i>Supporters</span>
+                <span class="value">0</span>
+              </div>
+            </div>
+            <div class="stat-wrapper">
+              <div class="stat">
+                <span><i class="local-icon members"></i>Members</span>
+                <span class="value">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="supporter-window-wrapper">
+          <div class="supporter-window">
+          <i class="local-icon block support"></i>
+          <h3>You Don't Have any supporters Yet</h3>
+          <span>Share your page with your audience to get started.</span>
+        </div>
+      </div>
+
+
+      <div class="checklist">
+        <div class="checklist-heading">
+          <h2>CheckList</h2>
+          <!-- add eye slash class here to strike the eye and remove it to do vice versa -->
+          <button><i class="fa fa-eye" id="checklist_toggle"></i>Hide</button>
+        </div>
+
+        <div class="checklist-section payout">
+          <i class="local-icon payment"></i>
+          <div class="section">
+            <h2>Connect A Payout Method</h2>
+            <span>Your page is currently private. Connect your PayPal or Stripe account to start receiving payments. </span>
+            <div class="btn-wrapper">
+              <button>Connect</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section page">
+          <i class="local-icon page"></i>
+          <div class="section">
+            <h2>Complete your page</h2>
+            <span>Add a photo, one-liner, and a little bit about you. See some beautiful examples here, here, and here.</span>
+            <div class="btn-wrapper">
+              <button>Edit Page</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section goal">
+          <i class="local-icon set-a-goal"></i>
+          <div class="section">
+            <h2>Set a goal</h2>
+            <span>Pages with goals consistently attract more supporters. Add some goals and let them be a part of your creative journey</span>
+            <div class="btn-wrapper">
+              <button>Set a goal</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section membership">
+          <i class="local-icon membership"></i>
+          <div class="section">
+            <h2>Enable Membership for predictable income.</h2>
+            <span>Successful memberships are usually fueled by exclusive content (like WallStreetYoda), but there are many creators who earn six-figures purely out of support.</span>
+            <div class="btn-wrapper">
+              <button>Enable Membership</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section first-post">
+          <i class="local-icon page"></i>
+          <div class="section">
+            <h2>Write Your First Post</h2>
+            <span>Creators who post regularly tend to earn more support.</span>
+            <div class="btn-wrapper">
+              <button>Write a post</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section link">
+          <i class="local-icon link"></i>
+          <div class="section">
+            <h2>Link from your social bio and descriptions.</h2>
+            <span>Keep your BMC link where your followers can find them. Most creators add it as their primary bio link on Twitter, Instagram, Linktree, Youtube description, etc.</span>
+            <div class="btn-wrapper">
+              <div class="input-wrapper">
+                <input type="text" placeholder="Link"/>
+                <button>Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section announce">
+          <i class="local-icon announce"></i>
+          <div class="section">
+            <h2>Announce Your Page</h2>
+            <span>This is usually how creators earn their first set of supporters. Make it unique, and maybe even offer something in return. See some examples here.</span>
+            <div class="btn-wrapper">
+              <button><i class="local-icon twitter"></i>Tweet</button>
+              <button><i class="local-icon facebook"></i>Facebook</button>
+              <button><i class="local-icon gif"></i>Gifs</button>
+              <button><i class="local-icon download"></i>Download Creator Kit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-section integration">
+          <i class="local-icon integration"></i>
+          <div class="section">
+            <h2>Integrations to take it to the next level.</h2>
+            <span>From embeddable buttons for your sites to offering Discord roles to your supporters, you have integrations for everything.</span>
+            <div class="btn-wrapper">
+              <button><i class="local-icon refresh"></i>Website Buttons</button>
+              <button>Stream Alerts</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <footer class="resources">
+        <h2>Resources</h2>
+        <div class="resources-wrapper">
+        <div class="resource news-letters-writers">
+          <i class="local-icon posts"></i>
+          <span>For Writers & News Letters</span>
+        </div>
+        <div class="resource interview">
+          <i class="local-icon followers"></i>
+          <span>Interview With Creators</span>
+        </div>
+        <div class="resource faq">
+          <i class="local-icon faq"></i>
+          <span>Frequently Asked Questions.</span>
+        </div>
+      </div>
+      </footer>
+
+      </div>
+    </div>
+  </body>
+</html>
