@@ -694,6 +694,7 @@ div.overview-stats div.stat > span {
     align-items: center;
   }
   div.overview-stats div.stat > span > i {
+    margin-right: 0px;
     margin-bottom: 0.5em;
   }
 }
